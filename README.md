@@ -73,18 +73,29 @@ Since you can't directly set an LWC as a button override target, you need to use
 Override the "New" Button on the Account Object
 ```
 Go to Setup.
+
 Navigate to Object Manager and select Account.
+
 Select Buttons, Links, and Actions.
+
 Find the New button and click Edit.
+
 Change the behavior to Lightning Component.
+
 Select the Aura component you created (NewAccount).
+
 Deploy Your Components
 
 Make sure you deploy both your LWC and Aura components to your Salesforce org. You can do this using Salesforce CLI or through your preferred IDE.
 
 Summary
+
 Create an LWC to handle the new Account form.
+
 Create an Aura component to host the LWC.
+
 Override the "New" button on the Account object to point to the Aura component.
+
 Deploy the components to your Salesforce org.
+
 Once these steps are completed, clicking the "New" button on the Account object should display your custom LWC form.
